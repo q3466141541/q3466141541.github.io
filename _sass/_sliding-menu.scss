@@ -39,6 +39,7 @@
   &:hover {
     background: $gray;
   }
+ 
   transition: $sliding-menu-animation;
   &.slide {
     background: $danger-color;

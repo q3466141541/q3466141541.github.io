@@ -134,7 +134,7 @@
       left: 0;
       margin-bottom: 0;
       width: 50px;
-      border: 2px solid $white;
+      border: 2px solid $ gray;
       margin-bottom: ($gutter / 2);
       opacity: 0.6;
       @include media($small) {
@@ -143,7 +143,7 @@
     }
     a:hover .teaser {
       opacity: 1;
-      border: 3px solid $white;
+      border: 3px solid $ gray;
     }
     .title {
       display: block;
@@ -166,11 +166,11 @@
       }
     }
      .title:hover,.excerpt:hover,.teaser:hover{
-     color: $white
+     color: $ gray
   }
   .sub-menu-item > li a {
     display: block;
-    color: $white;
+    color: $ gray;
     font-style: italic;
   }
   .menu-item .home a {

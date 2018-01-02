@@ -37,7 +37,7 @@
   z-index: 20;
   box-sizing: border-box;
   &:hover {
-    background: $lemon;
+    background: $white;
   }
   transition: $sliding-menu-animation;
   &.slide {
@@ -87,7 +87,7 @@
     @include media($large) {
       margin-right: 20%;
     }
-    color: $gray;
+    color: $white;
     @include font-size(14);
     @include media($small) {
       @include font-size(16);

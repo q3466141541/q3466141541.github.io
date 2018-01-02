@@ -142,6 +142,7 @@
     }
     a:hover .teaser {
       opacity: 1;
+      border: 3px solid $gray;
     }
     .title {
       display: block;
@@ -163,6 +164,8 @@
         @include font-size(16,no);
       }
     }
+     .title:hover,.excerpt:hover,.teaser:hover{
+     color: $gray
   }
   .sub-menu-item > li a {
     display: block;

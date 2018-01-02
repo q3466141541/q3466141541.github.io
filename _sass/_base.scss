@@ -11,6 +11,10 @@ body {
 	color: $text-color;
     background-image:  
     url('../images/bad.jpg');
+    background-size:cover;
+	margin:0;
+	padding:0;
+	position:relative;
 	@include font-size(16);
 }
 

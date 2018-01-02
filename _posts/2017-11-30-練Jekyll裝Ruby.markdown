@@ -4,8 +4,8 @@ title:  "欲練Jekyll神功，必先自裝Ruby"
 date:   2017-11-30 22:07:50 +0800
 categories: Jekyll Ruby update
 image:
-  teaser: gembox.png
-  feature: gembox.png
+  teaser: A.jpeg
+  feature: A.jpeg
 ---
 ---
 欲練 `Jekyll` 神功，必先自裝 `Ruby` 這腳本語言的開發環境。

@@ -148,6 +148,7 @@
       display: block;
       margin-left: 60px;
       font-family: $alt-font;
+      color: $white;
       @include font-size(24,no);
       font-weight: 700;
       @include media($small) {

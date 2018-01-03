@@ -28,7 +28,7 @@ $cream                        : #fffdd0;
 $body-color                  	: #ffffff;
 
 $text-color                  	: $white;
-$caption-color                : mix($white, $text-color, 25%);
+$caption-color                : $white;
 
 $base-color                  	: $white;
 $comp-color                  	: complement($base-color);

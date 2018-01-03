@@ -1,42 +1,40 @@
 ---
 layout: default
-title:  "欲練Jekyll神功，必先自裝Ruby"
-date:   2017-11-30 22:07:50 +0800
+title:  "网页设计笔记——H5最最最基础知识"
+date:   2018-01-03 22:07:50 +0800
 categories: Jekyll Ruby update
 image:
   teaser: A.jpeg
   feature: A.jpeg
 ---
 ---
-欲練 `Jekyll` 神功，必先自裝 `Ruby` 這腳本語言的開發環境。
+# 什么是 HTML5？
+HTML5 将成为 HTML、XHTML 以及 HTML DOM 的新标准。
+HTML 的上一个版本诞生于 1999 年。自从那以后，Web 世界已经经历了巨变。
+HTML5 仍处于完善之中。然而，大部分现代浏览器已经具备了某些 HTML5 支持。
 
-現在2017年年底的情境下，在微軟視窗環境裝 `Ruby` ，可以使用[RubyInstaller for Windows][rubyinstaller] 減少不必要的痛苦及麻煩。仍會遇到點問題，請細讀以下內容做準備。
+# HTML5 是如何起步的？
+HTML5 是 W3C 与 WHATWG 合作的结果。
+编者注：W3C 指 World Wide Web Consortium，万维网联盟。
+编者注：WHATWG 指 Web Hypertext Application Technology Working Group。
+WHATWG 致力于 web 表单和应用程序，而 W3C 专注于 XHTML 2.0。在 2006 年，双方决定进行合作，来创建一个新版本的 HTML。
+为 HTML5 建立的一些规则：
+- 新特性应该基于 HTML、CSS、DOM 以及 JavaScript。
+- 减少对外部插件的需求（比如 Flash）
+- 更优秀的错误处理
+- 更多取代脚本的标记
+- HTML5 应该独立于设备
+- 开发进程应对公众透明
 
-## 从 RubyInstaller 起步的自裝策略：缺啥裝啥
+# 新特性
+HTML5 中的一些有趣的新特性：
+用于绘画的 canvas 元素
+用于媒介回放的 video 和 audio 元素
+对本地离线存储的更好的支持
+新的特殊内容元素，比如 article、footer、header、nav、section
+新的表单控件，比如 calendar、date、time、email、url、search
 
-現在，個人同意 [Rei在Ruby-China的社群網站的看法][Rei_Ruby-China]  (2015年06月26日)：
+# 浏览器支持
+最新版本的 Safari、Chrome、Firefox 以及 Opera 支持某些 HTML5 特性。Internet Explorer 9 将支持某些 HTML5 特性。
 
->  我觉得从 RubyInstaller 起步，遇到问题逐个解决比较好
-
-其意涵是，若裝了 RubyInstaller ，但通常的情況是裝不完所有的gem包，這時若有報錯說缺什麼包，就用下面的命令裝什麼包
-
-> gem install 缺什麼gem包
-
-用RubyInstaller 安裝後，出現命令列有Ruby的ASCII藝術圖已算是基本安裝好，	可以在命令列或PowerShell輸入以下命令檢查版本
-
->  ruby -v
-
-出現命令列有Ruby的ASCII藝術圖时，還能繼續安裝其他常用的包，所以有1,2,3等等選項。不過由於中国網絡環境的關係，若不能順利下載安裝其他gem包，可以就用 `缺啥裝啥` 的策略就行。
-
-## 其他相關討論及策略
-
-早些年有不少開發者認定在微軟視窗環境裝 Ruby 是件吃力不討好的事，故建議 [新人千万不要在 Windows 上使用][no_ruby_on_windows] 。其論點為開發者應該改以 Linux or Mac  環境來使用 Ruby ，裝起來開發起來都比較順。
-
-經過這些年的發展，在微軟視窗環境使用 Ruby 的問題雖未獲完整解決，但若是使用較簡單的模塊如 `Jekyll` ，已不是什麼太大的問題，所以建議从 RubyInstaller 起步，遇到问题逐个解决補上所需的gem包比较好。
-
-中国Ruby China用戶 [ericguo 亦有打包  Rails 在 Windows 下的完整开发环境压缩包][Rei_Ruby-China]，好處是解壓了應該能用，壞處是裝了不少的東西，佔的空間比較大，且版本可能不是最新的ruby 2.4.2p198 (2017-09-14 revision 59899。
-
-
-[rubyinstaller]: https://rubyinstaller.org/downloads/
-[Rei_Ruby-China]:   https://ruby-china.org/topics/26191
-[no_ruby_on_windows]: https://ruby-china.org/topics/1020
+### #知识来源见W3C

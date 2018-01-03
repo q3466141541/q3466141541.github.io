@@ -27,7 +27,9 @@ body {
 			  -moz-transform:translateY(-50%); 
 			  -webkit-transform:translateY(-50%); 
 			  -o-transform:translateY(-50%);
-p {		
+}
+
+p  {		
  @include font-size(18,yes,28);		
 }
 

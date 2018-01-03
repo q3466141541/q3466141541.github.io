@@ -27,27 +27,9 @@ body {
 			  -moz-transform:translateY(-50%); 
 			  -webkit-transform:translateY(-50%); 
 			  -o-transform:translateY(-50%);
-	}
-	h1{
-		     font-size:60px;
-		     margin-bottom:20px;
-	}
-	p{
-		     font-size:32px;
-			 margin-bottom:40px;
-			 margin-left:40px;
-			 margin-right:40px;
-	}
-	a{
-		     font-size:20px;
-			 color:#fff;
-			 border:5px solid #fff;
-			 border-radius:3px;
-			 padding:10px  50px;
-			 text-decoration:none;
-	}
-
-
+p {		
+ @include font-size(18,yes,28);		
+}
 
 li {
 	@include font-size(16,12,24);

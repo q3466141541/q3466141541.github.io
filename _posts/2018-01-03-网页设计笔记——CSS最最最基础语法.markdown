@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "网页设计笔记——CSS最最最基础语法"
+categories: posts rwd
 image:
   teaser: B.jpg
   feature: B.jpg

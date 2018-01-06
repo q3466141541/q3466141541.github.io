@@ -3,8 +3,8 @@ layout: default
 title:  "网页设计笔记——CSS最最最基础语法"
 categories: posts rwd
 image:
-  teaser: B.jpg
-  feature: B.jpg
+  teaser: h5.jpg
+  feature: h5.jpg
 ---
 
 # CSS 语法

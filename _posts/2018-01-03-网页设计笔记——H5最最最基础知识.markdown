@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  "网页设计笔记——H5最最最基础知识"
+title:  "网页设计笔记——H5基础知识"
 date:   2018-01-03 22:07:50 +0800
 categories: posts rwd
 image:
-  teaser: A.jpeg
-  feature: A.jpeg
+  teaser: h5.jpg
+  feature: h5.jpg
 ---
 ---
 # 什么是 HTML5？
